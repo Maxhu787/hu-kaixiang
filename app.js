@@ -24,3 +24,5 @@ age = function () {
   document.getElementById('myAge').innerText = (daysBetweenDates('Feb 7, 2009 00:00:00', new Date()) / 365).toFixed(8);
 };
 setInterval(age, 1200);
+
+document.getElementById("year").innerHTML = new Date().getFullYear();
