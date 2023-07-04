@@ -1,9 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 body {
-  background-color: #1d1d1d;
+  background-color: rgb(23, 24, 28);
   color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto Mono', monospace;
   padding: 0;
   margin: 0;
+  opacity: 0;
+  animation-name: fade-in;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+  }
+}
+
+* {
+  /* border: solid 2px #ffa500; */
 }
 
 section {
@@ -11,6 +26,7 @@ section {
   place-items: center;
   align-content: center;
   min-height: 100vh;
+  border-bottom: solid 2px #ffa500;
 }
 
 .hidden {
@@ -19,6 +35,7 @@ section {
   transform: translateX(-100%);
   transition: all 1s;
 }
+
 @media(prefers-reduced-motion) {
   .hidden {
     transition: none;
@@ -29,6 +46,27 @@ section {
   filter: blur(0);
   transform: translateX(0);
 }
+
+#header {
+  min-height: 100vh;
+  padding: 80px;
+  border-bottom: solid 1px #ffa500;
+}
+
+#header h1, #header p {
+  margin-top: 40px;
+  vertical-align: top;
+  font-size: 40px;
+}
+
+#header img {
+  height: 210px;
+  width: 210px;
+  border-radius: 14px;
+  float: left;
+  margin-right: 40px;
+}
+
 
 .logos {
   display: flex;
@@ -47,4 +85,8 @@ section {
 }
 .logo:nth-child(4) {
   transition-delay: 600ms;
+}
+
+footer {
+  text-align: center;
 }
