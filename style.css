@@ -19,7 +19,7 @@ body {
 }
 
 * {
-  border: solid 2px #ffa500;
+  /* border: solid 3px #ffa500; */
 }
 
 section {
@@ -27,7 +27,7 @@ section {
   place-items: center;
   align-content: center;
   min-height: 100vh;
-  border-bottom: solid 2px #ffa500;
+  border-bottom: solid 3px #ffa500;
 }
 
 .hidden {
@@ -52,7 +52,7 @@ section {
 #header {
   min-height: 25vh;
   padding: 80px;
-  border-bottom: solid 1px #ffa500;
+  border-bottom: solid 3px #ffa500;
 }
 
 #header h1,
