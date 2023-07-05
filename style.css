@@ -57,7 +57,7 @@ section {}
   border-bottom: solid 3px #ffa500;
   /* background-color: rgb(21, 182, 236); */
 
-  background-image: url('/assets/svg/wave-haikei.svg');
+  background-image: url('./assets/svg/wave-haikei.svg');
   background-color: #fff;
   background-size: cover;
 }
