@@ -87,6 +87,15 @@ section {
   border-bottom: solid 3px #ffa500;
 }
 
+#socials a {
+  color: #ffa500;
+  font-size: 30px;
+}
+
+a:hover {
+  color: #00ffff;
+}
+
 .logos {
   display: flex;
   column-gap: 20px;
