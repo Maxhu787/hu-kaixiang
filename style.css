@@ -50,7 +50,8 @@ section {
 }
 
 #header {
-  min-height: 25vh;
+  /* min-height: 25vh; */
+  min-height: 100vh;
   padding: 80px;
   border-bottom: solid 3px #ffa500;
 }
@@ -65,7 +66,7 @@ section {
 #header img {
   height: 210px;
   width: 210px;
-  border-radius: 200px;
+  border-radius: 10px;
   float: left;
   margin-right: 40px;
 }
