@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 body {
-  background-color: rgb(23, 24, 28);
-  color: #fff;
-  font-family: 'Roboto Mono', monospace;
+  background-color: #ffffff;
+  color: #000;
+  font-family: 'Noto Sans';
   padding: 0;
   margin: 0;
   opacity: 0;
@@ -23,6 +22,10 @@ body {
 }
 
 section {
+  
+}
+
+.projects {
   display: grid;
   place-items: center;
   align-content: center;
@@ -34,7 +37,7 @@ section {
   opacity: 0;
   filter: blur(5px);
   transform: translateX(-100%);
-  transition: all 1s;
+  transition: all 1s ease-in-out;
 }
 
 @media(prefers-reduced-motion) {
@@ -50,9 +53,9 @@ section {
 }
 
 #header {
-  /* min-height: 25vh; */
   min-height: 100vh;
   padding: 80px;
+  background-color: rgb(21, 182, 236);
   border-bottom: solid 3px #ffa500;
 }
 
@@ -63,7 +66,7 @@ section {
 }
 
 #header p {
-  margin-top: 40px;
+  margin-top: 30px;
   vertical-align: top;
   font-size: 12px;
 }
@@ -76,6 +79,13 @@ section {
   margin-right: 40px;
 }
 
+#socials {
+  /* display: grid; */
+  /* place-items: center; */
+  /* align-content: center; */
+  /* min-height: 100vh; */
+  border-bottom: solid 3px #ffa500;
+}
 
 .logos {
   display: flex;
