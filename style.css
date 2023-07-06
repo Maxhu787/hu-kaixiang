@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
+:root {
+  --shadow-color: 202 155 101;
+  --shadow-elevation-low:
+    -0.5px 0.5px 0.8px rgb(var(--shadow-color) / 0.34),
+    -0.8px 0.8px 1.3px -1.2px rgb(var(--shadow-color) / 0.34),
+    -2px 2px 3.2px -2.5px rgb(var(--shadow-color) / 0.34);
+  --shadow-elevation-medium:
+    -0.5px 0.5px 0.8px rgb(var(--shadow-color) / 0.36),
+    -1.7px 1.6px 2.6px -0.8px rgb(var(--shadow-color) / 0.36),
+    -4.2px 4px 6.5px -1.7px rgb(var(--shadow-color) / 0.36),
+    -10.2px 9.8px 15.9px -2.5px rgb(var(--shadow-color) / 0.36);
+  --shadow-elevation-high:
+    -0.5px 0.5px 0.8px rgb(var(--shadow-color) / 0.34),
+    -3px 2.9px 4.7px -0.4px rgb(var(--shadow-color) / 0.34),
+    -5.6px 5.3px 8.7px -0.7px rgb(var(--shadow-color) / 0.34),
+    -9.1px 8.8px 14.2px -1.1px rgb(var(--shadow-color) / 0.34),
+    -14.6px 14px 22.8px -1.4px rgb(var(--shadow-color) / 0.34),
+    -22.8px 21.9px 35.6px -1.8px rgb(var(--shadow-color) / 0.34),
+    -34.7px 33.3px 54.1px -2.1px rgb(var(--shadow-color) / 0.34),
+    -51.1px 49px 79.6px -2.5px rgb(var(--shadow-color) / 0.34);
+}
+
 body {
   background-color: #ffffff;
   color: #000;
@@ -27,9 +49,21 @@ section {}
 .projects {
   display: grid;
   place-items: center;
-  align-content: center;
+  /* align-content: center; */
   min-height: 100vh;
   border-bottom: solid 3px #ffa500;
+}
+
+.projects div {
+  background-color: #ffa500;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: var(--shadow-elevation-high);
+  transition: all .3s ease-in-out;
+}
+
+.projects div:hover {
+  box-shadow: none;
 }
 
 .hidden {
