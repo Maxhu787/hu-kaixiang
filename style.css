@@ -53,9 +53,8 @@ section {}
 
 #header {
   min-height: 100vh;
-  padding: 20px 20px;
+  padding: 80px;
   border-bottom: solid 3px #ffa500;
-  /* background-color: rgb(21, 182, 236); */
   background-image: url('./assets/svg/wave-haikei.svg');
   background-color: #fff;
   background-size: cover;
@@ -83,6 +82,12 @@ section {}
   margin-right: 40px;
   border: 7px solid #ffc200;
   animation: logo-breath 5s ease-out infinite normal;
+}
+
+@media (max-width: 400px) {
+  #header {
+    padding: 20px;
+  }
 }
 
 #socials {
