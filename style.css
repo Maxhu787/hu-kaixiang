@@ -59,11 +59,6 @@ section {}
   background-image: url('./assets/svg/wave-haikei.svg');
   background-color: #fff;
   background-size: cover;
-
-  /* display: grid; */
-  /* place-items: center; */
-  /* align-content: center; */
-  /* text-align: center; */
 }
 
 #header h1 {
@@ -91,7 +86,7 @@ section {}
 }
 
 #socials {
-  border-bottom: solid 3px #fff;
+  border-bottom: solid 3px #ffa500;
 }
 
 #socials a {
