@@ -25,7 +25,7 @@
 body {
   background-color: #ffffff;
   color: #000;
-  font-family: 'Noto Sans';
+  font-family: 'Noto Sans', sans-serif;
   padding: 0;
   margin: 0;
   opacity: 0;
@@ -108,7 +108,7 @@ section {}
   color: #000;
 }
 
-#header img {
+#header #g4o2 {
   height: 210px;
   width: 210px;
   border-radius: 1000px;
@@ -126,6 +126,7 @@ section {}
 
 #socials {
   border-bottom: solid 3px #ffa500;
+  user-select: none;
 }
 
 #socials a {
