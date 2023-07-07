@@ -178,6 +178,21 @@ section {}
   transition-delay: 1800ms;
 }
 
+#programming-languages {
+  padding: 20px;
+}
+
+.programming-language {
+  width: 11%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  /* mix-blend-mode: color-dodge; */
+}
+
+#github-contribution {
+  width: 100%;
+}
+
 .multiple {
   display: flex;
   column-gap: 20px;
