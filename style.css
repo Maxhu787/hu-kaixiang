@@ -124,6 +124,18 @@ section {}
   }
 }
 
+@media (max-width: 1220px) {
+  .programming-language {
+      width: 12% !important;
+    }
+}
+
+@media (max-width: 520px) {
+  .programming-language {
+    width: 20% !important;
+  }
+}
+
 #socials {
   border-bottom: solid 3px #ffa500;
   user-select: none;
@@ -179,14 +191,16 @@ section {}
 }
 
 #programming-languages {
+  margin-top: 40px;
   padding: 20px;
 }
 
 .programming-language {
-  width: 15%;
+  width: 8%;
   aspect-ratio: 3/2;
   object-fit: contain;
   /* mix-blend-mode: color-dodge; */
+  margin: 14px 14px;
 }
 
 #github-contribution {
