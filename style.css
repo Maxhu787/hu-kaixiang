@@ -54,20 +54,35 @@ section {}
   border-bottom: solid 3px #ffa500;
 }
 
-.projects .project-container {
+.project-container {
   background-color: #ffa500;
-  padding: 12px 20px;
+  padding: 20px;
   border-radius: 8px;
   box-shadow: var(--shadow-elevation-high);
   transition: all .3s ease-in-out;
+  max-width: 800px;
+
+  display: flex;
 }
 
 .projects .project-container:hover {
   box-shadow: none;
 }
 
-.cert-grid {
-  
+.project-description {
+  flex: 1;
+  max-width: 220px;
+}
+
+.project-screenshot {
+  flex: 1;
+}
+
+.project-screenshot img {
+  border-radius: 8px;
+  /* height: 100%; */
+  width: 100%;
+  margin-left: 20px;
 }
 
 .cert-grid-container {
