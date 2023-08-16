@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Manrope&family=Orbitron&family=Noto+Sans&display=swap');
 
 :root {
   --shadow-color: 202 155 101;
@@ -133,6 +133,7 @@ section {}
   margin-top: 40px;
   vertical-align: top;
   font-size: 40px;
+  font-family: 'Manrope';
 }
 
 #header p {
@@ -190,39 +191,39 @@ section {}
 }
 
 #socials:nth-child(2) {
-  transition-delay: 200ms;
-}
-
-#socials:nth-child(3) {
   transition-delay: 400ms;
 }
 
-#socials:nth-child(4) {
+#socials:nth-child(3) {
   transition-delay: 600ms;
 }
 
-#socials:nth-child(5) {
+#socials:nth-child(4) {
   transition-delay: 800ms;
 }
 
-#socials:nth-child(6) {
+#socials:nth-child(5) {
   transition-delay: 1000ms;
 }
 
-#socials:nth-child(7) {
+#socials:nth-child(6) {
   transition-delay: 1200ms;
 }
 
-#socials:nth-child(8) {
+#socials:nth-child(7) {
   transition-delay: 1400ms;
 }
 
-#socials:nth-child(9) {
+#socials:nth-child(8) {
   transition-delay: 1600ms;
 }
 
-#socials:nth-child(10) {
+#socials:nth-child(9) {
   transition-delay: 1800ms;
+}
+
+#socials:nth-child(10) {
+  transition-delay: 2000ms;
 }
 
 #programming-languages {
