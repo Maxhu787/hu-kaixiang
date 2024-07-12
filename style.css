@@ -2,7 +2,7 @@
 
 :root {
   --light: #000;
-  --dark: #eee;
+  --dark: #fff;
   --background: #000;
   --primary: #ffa500;
   --secondary: #ffc200;
@@ -133,7 +133,7 @@ body {
 }
 
 #socials a {
-  color: var(--primary);
+  color: var(--dark);
   font-size: 38px;
   display: inline-block;
   padding: 2px 12px 14px 12px;
@@ -141,7 +141,7 @@ body {
 }
 
 #socials a:hover {
-  color: var(--dark);
+  color: var(--primary);
   transition: color .1s ease-in-out;
 }
 
