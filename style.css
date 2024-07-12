@@ -133,7 +133,7 @@ body {
 }
 
 #socials a {
-  color: var(--dark);
+  color: var(--primary);
   font-size: 38px;
   display: inline-block;
   padding: 2px 12px 14px 12px;
@@ -141,7 +141,7 @@ body {
 }
 
 #socials a:hover {
-  color: var(--primary);
+  color: var(--dark);
   transition: color .1s ease-in-out;
 }
 
@@ -187,46 +187,25 @@ body {
 
 #programming-languages {
   margin-top: 40px;
-  padding: 20px;
+  /* padding: 20px; */
+  display: grid;
+  place-items: center;
+  align-content: center;
+  /* width: 100%; */
+  gap: 10px;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
 }
 
 .programming-language {
-  width: 8%;
+  width: 100%;
   aspect-ratio: 3/2;
   object-fit: contain;
   /* mix-blend-mode: color-dodge; */
   margin: 14px 14px;
 }
-@media (max-width: 1220px) {
+@media (max-width: 550px) {
   #programming-languages {
-    margin-top: 40px;
-    padding: 20px;
-  }
-  .programming-language {
-    width: 100% !important;
-  }
-}
-
-@media (max-width: 990px) {
-  #programming-languages {
-    margin-top: 40px;
-    padding: 20px;
-  }
-
-  .programming-language {
-    width: 25% !important;
-    margin: 5 !important;
-  }
-}
-@media (max-width: 520px) {
-  #programming-languages {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: red;
-  }
-  .programming-language {
-    width: 25% !important;
-    margin: 5 !important;
+    grid-template-columns: auto auto auto auto;
   }
 }
 
