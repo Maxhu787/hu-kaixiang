@@ -244,7 +244,7 @@ body {
 }
 
 .cert-grid {
-  padding: 20px 80px 20px 80px;
+  padding: 40px 140px 40px 140px;
 }
 
 .cert-grid h2 {
@@ -285,7 +285,7 @@ body {
 }
 
 .cert-grid-container img:hover {
-  transform: scale(0.95);
+  /* transform: scale(0.95); */
 }
 
 .cert-hidden {
